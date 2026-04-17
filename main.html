@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personaggio nel Canvas</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 900px;
+    }
+    canvas {
+      display: block;
+      margin: 20px auto;
+      background: #1a1a1a;
+      border: 4px solid #fff;
+    }
+    .hint {
+      color: #ccc;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Personaggio animato con le frecce</h1>
+    <canvas id="gameCanvas" width="840" height="560"></canvas>
+    <p class="hint">Usa le frecce per muovere il personaggio dentro il canvas.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
